@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="Admin_admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>project</title>
+	<link rel="stylesheet" href="../temp/css/style.css" type="text/css">
+</head>
+<body>
+<div>
+				<h1>Online Nash Equlibrium</h1>
+			</div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+	<div id="header">
+		<div class="section">
+			<ul>
+				<li class="selected">
+					<a href="Home.aspx">home</a>
+				</li>
+				<li>
+					<a href="View Users.aspx">view users</a>
+				</li>
+				<li>
+					<a href="View Upload.aspx">View files</a>
+				</li>
+				<li>
+					<a href="../logint.aspx">logout</a>
+				</li>
+				
+			</ul>
+			
+		</div>
+		
+	</div>
+    <form id="jag" runat="server">
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>s
+    </form>
+    
+	<div id="body">
+       
+				</div>
+			<p>
+				&copy; copyright 2016 | all rights reserved.
+			</p>
+		</div>
+	</div>
+</body>
+</html>

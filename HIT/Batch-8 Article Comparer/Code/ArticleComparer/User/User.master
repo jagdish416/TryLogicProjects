@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="User.master.cs" Inherits="User_User" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+<link href="../Template/default.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<body>
+    <form id="form1" runat="server">
+<div id="wrapper-bg">
+	<div id="wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1><a href="#"><span style="font-family: 'SketchFlow Print'; color: #000000; font-weight: bolder;">Article Comparer</span></a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li class="active"><a href="UserHome.aspx" accesskey="1" title="" style="font-family: 'SketchFlow Print'; font-weight: bolder; color: #000000">Home</a></li>
+                    <li><a href="Profile.aspx" accesskey="2" title="" style="font-family: 'SketchFlow Print'; font-weight: bolder; color: #000000">Profile</a></li>
+					<li><a href="CheckPlagiarism.aspx" accesskey="3" title="" style="font-family: 'SketchFlow Print'; font-weight: bolder; color: #000000">Check Plagiarism</a></li>
+					<li><a href="Feedback.aspx" accesskey="4" title="" style="font-family: 'SketchFlow Print'; font-weight: bolder; color: #000000">Feedback</a></li>
+					<li><a href="../Loginn.aspx" accesskey="5" title="" style="font-weight: bolder; color: #000000; font-family: 'SketchFlow Print'">Logout</a></li>
+					
+			</div>
+            
+		</div>
+		
+        
+		<div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder></div>
+        <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        </asp:ContentPlaceHolder></div>
+        <div id="three-column" class="container">
+			<header>
+				<h2>the solution to create to new ideas & articles</h2>
+			</header>
+			<div class="tbox1">
+				<div class="box-style box-style01">
+					<div class="content"> <a href="#" class="image image-full"><img src="../2.jpg" alt=""></a>
+						<h2>stealing and publication</h2>
+						<p>Stop 'stealing and publication' of another authors  language, thoughts, ideas or expression and passing it off as your own. </p>
+						 </div>
+				</div>
+			</div>
+			<div class="tbox2">
+				<div class="box-style box-style02">
+					<div class="content"> <a href="#" class="image image-full"><img src="../4.jpg"></a>
+						<h2>Think on your own</h2>
+						<p>Be calm and think on your own rather than copying from any others ideas.Simply present the ideas which strikes in your brain. </p>
+						 </div>
+				</div>
+			</div>
+			<div class="tbox3">
+				<div class="box-style box-style03">
+					<div class="content"> <a href="#" class="image image-full"><img src="../6.jpe" alt=""></a>
+						<h2>Stop Copy and Paste </h2>
+						<p>Stop copy and pasting articles,ideas or information from some other sites.Avoiding cut,copy,paste will help you in creating new articles</p>
+						 </div>
+				</div>
+			</div>
+		</div>
+		
+<div id="footer">
+	<p style="background-color: #6699FF; color: #FFFFFF;">Article Comparer&copy; 2016. All rights reserved. Designed by <a href="http://templated.co" rel="nofollow" style="color: #FFFFFF">Mohan,sai,prabhakar,varun.</a>
+    </p>
+</div>
+    </form>
+</body>
+</html>

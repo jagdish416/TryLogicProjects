@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master.master.cs" Inherits="Master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>project</title>
+	<link rel="stylesheet" href="temp/css/style.css" type="text/css">
+</head>
+<body>
+<div>
+				<h1>Online Nash Equlibrium</h1>
+			</div>
+	<div id="header">
+		<div class="section">
+			<div class="logo">
+				<a href="#">Game Theory</a>
+			</div>
+			<ul>
+				<li class="selected">
+					<a href="home.aspx">home</a>
+				</li>
+				<li>
+					<a href="Reg.aspx">register</a>
+				</li>
+				<li>
+					<a href="logint.aspx">login</a>
+				</li>
+				
+				<li>
+					<a href="temp/contact.html">contact</a>
+				</li>
+			</ul>
+		</div>
+		<div class="article">
+			<img src="temp/images/index.jpg" alt="" style="width: 283px">
+			<h1>project work.</h1>
+		</div>
+	</div>
+    <p>    </p>
+	<div id="body">
+		<ul>
+			<li>
+				</div>
+			<p>
+				&copy; copyright 2016 | all rights reserved.
+			</p>
+		</div>
+	</div>
+</body>
+</html>

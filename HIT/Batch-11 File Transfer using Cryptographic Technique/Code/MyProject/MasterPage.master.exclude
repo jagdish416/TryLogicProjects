@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>New Rise</title>
+<link href="temp/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<form id="form1" runat="server">
+<!--header start -->
+<div id="header">
+<a href="#" class="member">members login</a>
+<img src="temp/images/logo.gif" alt="web development" />
+<ul class="nav">
+<li class="home">home</li>
+    <li></li>
+</ul>
+</div>
+<!--header end -->
+<!--body start -->
+<div id="body">
+<p class="top"></p>
+<!--left panel start -->
+<div id="left">
+<h2>Welcome</h2>
+<h3>To New rise Family</h3>
+<p class="text1">New Rise is a free, tableless, W3C-compliant web design layout by Template World. This template has been tested and proven compatible with all major browser environments and operating systems. You are free to modify the design to suit your tastes in any way you like.</p>
+<p class="text2">We only ask you to not remove "Design by Template World" and the link http://www.templateworld.com from the footer of the template. These templates are licensed under a Creative Commons Attribution 2.5 License. This means that you are free to modify the design to suit your tastes in any way you like, but you must include the provided link back to Template World.</p>
+<p class="rm">&nbsp;</p>
+<h2>latest events</h2>
+<h3 class="date">On 02 January 2007</h3>
+    <p class="date">&nbsp;</p>
+<p class="event">We Even started Web hosting services also please login for details</p>
+<p class="rm2"><a href="#"></a></p>
+</div>
+<!--left panel end -->
+<!--right panel start -->
+<div id="right">
+<h2>Login Here<a href="#"></a></h2>
+<form name="serch" action="#" method="post">
+<p class="domain"><asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        &nbsp;</p>
+<p class="domain">&nbsp;</p>
+</form>
+<a href="#"><img src="temp/images/banner.gif" alt="banner" width="157" height="146" border="0" class="banner" /></a>
+<p class="bottom">
+<a href="#" class="xhtm"></a>
+<a href="#" class="css"></a>
+</p>
+</div>
+<!--right panel end -->
+<p class="bot"></p>
+<br class="spacer" />
+</div>
+<!--body end -->
+<!--footer start -->
+<div id="footer">
+<p class="copyright">&nbsp; new rise web development. All rights reserved.</p>
+<p class="design">Designed By: New rise</p>
+</div>
+<!--footer end -->
+</form>
+</body>
+
+</html><html xmlns="http://www.w3.org/1999/xhtml">
+

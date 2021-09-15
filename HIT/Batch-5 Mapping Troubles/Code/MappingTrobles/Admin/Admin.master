@@ -1,0 +1,38 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin_Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head   runat="server"  >
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+<link rel="stylesheet" type="text/css" href="../Temp/default.css" media="screen"/>
+<title>Mapping Troubles</title>
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+<div class="container">
+  <div class="gfx"><span></span></div>
+  <div class="top">
+    <div class="navigation"> <a href="Home.aspx" id="selected">Home</a> <a href="AdminPanel.aspx">Admin Panel</a><a href="AddEvent1.aspx">Add Events</a> <a href="Report.aspx">Reports</a> <a href="../Login.aspx">LogOut</a> </div>
+    <div class="pattern"><span></span></div>
+    <div class="header">
+      <h1>Mapping Troubles</h1>
+      <p>The Journey of Every villages...</p>
+    </div>
+    <div class="pattern"><span></span></div>
+  </div>
+  <div class="content">
+    <div class="spacer">
+      </div> 
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+       <div class="divider"></div>
+        &copy;2016 <a href="#"></a><a href="#"></a>&amp; <a href="#"></a>Template design by Mapping Troubles Group <a href="#"></a>
+     </div>
+</div>
+    </form>
+</body>
+</html>
+

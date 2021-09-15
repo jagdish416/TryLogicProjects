@@ -1,0 +1,20 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage3.master" AutoEventWireup="true" CodeFile="Register1.aspx.cs" Inherits="Register1" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <p>
+    <asp:Image ID="Image1" runat="server" Height="16px" 
+            ImageUrl="~/temp/images/head_arrows_right_animation_clipart.gif" Width="76px" />
+    <span style="color: #FFFF00; font-family: 'Segoe UI'; font-size: xx-large">Instructions</span></p>
+<ol>
+    <li style="height: 57px">&nbsp;&nbsp;Dont forget user id and password</li>
+    <li style="height: 57px">Dont share your Account with any one</li>
+    <li style="height: 57px">Your email id is your login id</li>
+</ol>
+<p align="center">
+    <asp:Button ID="Button1" runat="server" Height="25px" Text="Next" 
+            Width="94px" onclick="Button1_Click" />
+</p>
+<p>
+        &nbsp;</p>
+</asp:Content>
+

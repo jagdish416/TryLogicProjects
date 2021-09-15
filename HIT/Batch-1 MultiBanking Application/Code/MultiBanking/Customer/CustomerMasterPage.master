@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CustomerMasterPage.master.cs" Inherits="Customer_CustomerMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head id="Head1" runat="server">
+  <title>MBA</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="../temp/css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+  <script type="text/javascript">
+      $(window).load(function () {
+          $('#slider').nivoSlider();
+      });
+    </script>
+
+</head>
+
+<body>
+    <form id="form1" runat="server">
+  <div id="main">	
+	<div id="site_content">
+      <div id="site_heading">
+	    <h1 style="font-family: &quot;Book Antiqua&quot;; font-weight: bold; font-style: italic; font-size: x-large;">Multi Banking App</h1>	
+	    <h2 style="font-size: small">We Bring At Your Finger Tips</h2>
+	  </div><!--close site_heading-->
+	  <div id="header">
+	    <div id="menubar">
+          <ul id="menu">
+            <li class="current"><a href="CustomerHome.aspx">HOME</a></li>
+            <li><a href="CustomerProfile.aspx">Profile</a></li>
+              <li><a href="Transaction.aspx">Transcations</a></li>
+            <li><a href="AddBank.aspx">AddBank</a></li>
+            <li><a href="Balance.aspx">Balance</a></li>
+            <li><a href="ViewBank.aspx">ViewBanks</a></li>
+              <li><a href="../login.aspx">Logout</a></li>
+          </ul>
+        </div><!--close menubar-->
+      </div><!--close header-->	  
+	
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+        </asp:ContentPlaceHolder>		  
+	  <div id="content">
+        
+        
+
+      
+	  
+  
+    <div id="footer">  
+      <a href="#">CopyRights@2016</a> 
+    </div><!--close footer-->	
+  </div><!--close main-->	
+    </form>
+    <p>
+&nbsp;
+    </p>
+</body>
+</html>

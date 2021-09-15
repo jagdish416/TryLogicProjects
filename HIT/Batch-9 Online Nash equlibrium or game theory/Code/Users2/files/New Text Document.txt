@@ -1,0 +1,6 @@
+sqldataada da=new sqlda("select * from '"+a.text+"');
+
+dtastable dt=new datta();
+da.fill(dt);
+datast ds=new dataset();
+ds.tables.ad(dt);

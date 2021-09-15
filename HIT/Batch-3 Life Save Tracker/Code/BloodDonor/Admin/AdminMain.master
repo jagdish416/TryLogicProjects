@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMain.master.cs" Inherits="Admin_AdminMain" %>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BLOOD</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href="../Temp/css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<form id="jag" runat="server">
+
+
+<div class="header-wrapper">
+  <div class="header">
+    <div class="logo">
+      <h1>Life Save Tracker  </h1>
+    </div>
+    <!---logo ends here -->
+    <div class="menu">
+      <ul>
+        <li><a class="active" href="Home.aspx">Home</a>me</li>
+        <li><a href="ViewUsers.aspx">View Users</a></li>
+        <li><a href="ViewHospital.aspx">View Hospital</a></li>
+        <li><a href="DeleteUsers.aspx"> Delete Users</a></li>
+       <li> 
+            <asp:LinkButton ID="LinkButton1" runat="server" onclick="LinkButton1_Click">Logout</asp:LinkButton></li>
+       </ul>
+    </div>
+    <!--- menu ends here -->
+  </div>
+  <!---headerends here -->
+</div>
+
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+<div class="footer-wrapper">
+  <div class="footer">
+    
+      
+      
+      <div class="footer-content">
+        
+        Copyright (c) . All rights reserved.<br />
+
+     <a href="#" class="footerlink"> </a> HIT College Of Engineering   <br />
+</div>
+     
+  
+   
+      
+  </div>
+</div>
+<!---footer-wrapper ends here-->
+</body>
+</html>
+

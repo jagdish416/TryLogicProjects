@@ -1,0 +1,115 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="rent.master.cs" Inherits="rent" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<title>Colorized</title>
+<meta charset="utf-8">
+<noscript>
+<link rel="stylesheet" href="temp/css/5grid/core-1000px.css">
+<link rel="stylesheet" href="temp/css/5grid/core-desktop.css">
+<link rel="stylesheet" href="temp/css/5grid/core-1200px.css">
+<link rel="stylesheet" href="temp/css/5grid/core-noscript.css">
+<link rel="stylesheet" href="temp/css/style.css">
+<link rel="stylesheet" href="temp/css/style-desktop.css">
+</noscript>
+<script src="temp/css/5grid/jquery.js"></script>
+<script src="temp/css/5grid/init.js?use=mobile,desktop,1000px&amp;mobileUI=1&amp;mobileUI.theme=none"></script>
+<!--[if IE 9]><link rel="stylesheet" href="css/style-ie9.css"><![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <div id="header-wrapper">
+    <header id="header">
+      <div class="5grid-layout">
+        <div class="row">
+          <div class="12u" id="logo">
+            <!-- Logo -->
+            <h1><a href="#" class="mobileUI-site-name">Rent X-press Blog</a></h1>
+            <p>Design By HIT Student</p>
+          </div>
+        </div>
+      </div>
+      <div class="5grid-layout">
+        <div class="row">
+          <div class="12u" id="menu">
+            <div id="menu-wrapper">
+              <nav class="mobileUI-site-nav">
+                <ul>
+                  <li class="current_page_item"><a href="Home.aspx">HOME</a></li>
+                  <li><a href="Registration.aspx">REGISTER</a></li>
+                  <li><a href="LOGIN.aspx">LOGIN</a></li>
+                  <li><a href="CONTACT US.aspx">CONTACT US</a></li>
+                  <li><a href="AboutUs.aspx">ABOUT US</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div id="page-wrapper" class="5grid-layout">
+    <div class="5grid-layout">
+      <div class="row">
+        
+      </div>
+    </div>
+      <form id="ja" runat="server">
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder></form>
+    <div id="featured" class="5grid-layout">
+      <div class="titlebg">
+        <h2>
+        </h2>
+      </div>
+      <div class="row">
+        <div class="3u">
+          <section>
+            <p><a href="#"></a></p>
+            <p>
+            </p>
+          </section>
+        </div>
+        <div class="3u">
+          <section>
+            <p><a href="#"></a></p>
+            <p></p>
+          </section>
+        </div>
+        <div class="3u">
+          <section>
+            <p><a href="#"></a></p>
+            <p>.</p>
+          </section>
+        </div>
+        <div class="3u">
+          <section>
+            <p><a href="#"></a></p>
+            <p></p>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="5grid-layout">
+      <div class="row">
+        <div class="6u">
+          <div id="content">
+            <section>
+              
+            </section>
+          </div>
+        </div>
+        <div class="3u" id="sidebar1">
+          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>

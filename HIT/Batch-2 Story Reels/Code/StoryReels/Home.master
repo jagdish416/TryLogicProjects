@@ -1,0 +1,160 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Home.master.cs" Inherits="Home" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head runat="server">
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>StoryReels</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
+        <link rel="stylesheet" href="templet/assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="templet/assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="templet/assets/css/style.css">
+        <link rel="stylesheet" href="templet/assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="templet/assets/flexslider/flexslider.css">
+        <link rel="stylesheet" href="templet/assets/css/form-elements.css">
+        <link rel="stylesheet" href="templet/assets/css/style.css">
+        <link rel="stylesheet" href="templet/assets/css/media-queries.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="templet/assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="templet/assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="templet/assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="templet/assets/ico/apple-touch-icon-57-precomposed.png">
+
+    </head>
+
+    <body>
+        
+        <!-- Top menu -->
+		<nav class="navbar" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<h1> <span class="violet">Story</span>Reels.</h1>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="top-navbar-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="Home.aspx" >
+								<i class="fa fa-home"></i><br>Home 
+							</a>
+							
+						</li>
+						<li>
+							<a href="Register.aspx"><i class="fa fa-tasks"></i><br>Register</a>
+						</li>
+						<li>
+							<a href="Login.aspx"><i class="fa fa-user"></i><br>Login</a>
+						</li>
+						
+						<li>
+							<a href="About Us.aspx"><i class="fa fa-comment"></i><br>About</a>
+						</li>
+						<li>
+							<a href="ContactUs.aspx"><i class="fa fa-envelope"></i><br>Contact US</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+        <!-- Slider -->
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+    </asp:ContentPlaceHolder>
+        <!-- Presentation -->
+        <div class="presentation-container">
+        	<div class="container">
+        		<div class="row">
+	        		<div class="col-sm-12 wow fadeInLeftBig">
+	            		<h1>A site where <span class="violet">Stories</span> are stored memorably...</h1>
+	            		
+	            	</div>
+            	</div>
+        	</div>
+        </div>
+
+    
+
+        <!-- Services -->
+        
+
+        <!-- Latest work -->
+        
+
+        <!-- Testimonials -->
+        
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 footer-box wow fadeInUp">
+                       
+                        
+                    </div>
+                    <div class="col-sm-3 footer-box wow fadeInDown">
+                        
+                        
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-7 footer-copyright wow fadeIn">
+                        <p>Copyright 2016 StoryReels - All rights reserved.</p>
+                    </div>
+                    <div class="col-sm-5 footer-social wow fadeIn">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Javascript -->
+        <script src="templet/assets/js/jquery-1.11.1.min.js"></script>
+        <script src="templet/assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="templet/assets/js/bootstrap-hover-dropdown.min.js"></script>
+        <script src="templet/assets/js/jquery.backstretch.min.js"></script>
+        <script src="templet/assets/js/wow.min.js"></script>
+        <script src="templet/assets/js/retina-1.1.0.min.js"></script>
+        <script src="templet/assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="templet/assets/flexslider/jquery.flexslider-min.js"></script>
+        <script src="templet/assets/js/jflickrfeed.min.js"></script>
+   
+        <script src="templet/assets/js/masonry.pkgd.min.js"></script>
+        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script src="templet/assets/js/jquery.ui.map.min.js"></script>
+        <script src="templet/assets/js/scripts.js"></script>
+
+    </body>
+
+</html>

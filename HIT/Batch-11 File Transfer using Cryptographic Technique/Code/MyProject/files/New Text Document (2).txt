@@ -1,0 +1,12 @@
+1)Goods Service mngt
+2)Online movie ticket booking
+3)web shoping through virtual debit card
+4)Gym mangt system
+5)file transfer using cryptography techniq
+6)payrole magnt system
+7)pizza ordering system
+8)random password getting system
+9)Hospital Mgmt Sys
+10)message chatting
+11)information alert system
+12)Login authentication
